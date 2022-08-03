@@ -5,6 +5,7 @@ import UserForm from './src/views/UserForm';
 import { Icon } from '@rneui/themed';
 import { Button } from '@rneui/base';
 import { UsersProvider } from './src/context/UsersContext';
+import "./ignoreWarnings";
 
 const Stack = createNativeStackNavigator();
 
